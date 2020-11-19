@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+
+	<div th:fragment="urlFileList">
+
+		<div class="table-responsive">
+			<table class="table table-striped" id="tblFileList">
+				<thead>
+					<tr>
+						<th>Tweets</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="entry : ${listOfEntries}">
+						<td  style="white-space: pre-line"><a th:href="${entry.name_of_user}" th:text="${entry}">file</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+
+	</div>
+
+</body>
+</html>

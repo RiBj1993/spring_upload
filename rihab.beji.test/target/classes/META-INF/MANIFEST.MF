@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: rihab.beji.test
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Rihab.Beji
+Implementation-Vendor-Id: rihab.beji.test
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
